@@ -7,85 +7,65 @@
           <span style="color: #ffffff66"> Nigeria </span>
         </b-navbar-brand>
       </nuxt-link>
+      <!--  -->
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <!-- <div class="nav_menu"> -->
         <b-navbar-nav class="ml-auto">
           <div class="dropdown">
-            <li class="dropbtn">About us</li>
+            <li class="dropbtn" style="text-decoration: none !important">
+              <a
+                href="/aboutUs"
+                style="text-decoration: none !important"
+                >About us</a
+              >
+            </li>
             <div class="dropdown-content">
-              <a href="#"> Mission, Vision & Value</a>
-              <a href="#">Leadership</a>
-              <a href="#" class="last-list">Partners & Clients</a>
+              <nuxt-link :to="'/aboutUs#mission'"> Mission, Vision & Value</nuxt-link>
+              <nuxt-link :to="'/aboutUs#management'">Leadership</nuxt-link>
+              <nuxt-link :to="'/aboutUs#partners'" class="last-list">Partners & Clients</nuxt-link>
             </div>
           </div>
           <div class="dropdown">
-            <li class="dropbtn">Produts And Services</li>
+            <li class="dropbtn">What We Do</li>
             <div class="dropdown-content">
-              <a href="#"> Digital Transformation</a>
-              <a href="#"> Security Optimization</a>
-              <a href="#">Cloud Services Management</a>
-              <a href="#">Robotic Process Automation</a>
-              <a href="#">Technology Consulting</a>
-              <a href="#">Analytics &amp; Reporting</a>
-              <a href="#" class="last-list">All Products &amp; Services</a>
+              <a href="/digitalTransformation"> Digital Transformation</a>
+              <a href="/securityOptimization"> Security Optimization</a>
+              <a href="/cloudServices">Cloud Services Management</a>
+              <a href="/roboticProcess">Robotic Process Automation</a>
+              <a href="/technologyConsulting">Technology Consulting</a>
+              <a href="/anayticsReporting">Analytics &amp; Reporting</a>
+              <a href="/products&services" class="last-list"
+                >All Products &amp; Services</a
+              >
             </div>
           </div>
           <div class="dropdown">
             <li class="dropbtn">Resources</li>
             <div class="dropdown-content">
-              <a href="#">Marketplace</a>
-              <a href="#">Blog</a>
+              <a href="/marketplace">Marketplace</a>
+              <a href="/blog">Blog</a>
               <a href="#" class="last-list">Customer Success Stories</a>
             </div>
           </div>
           <div class="dropdown">
-            <li class="dropbtn">Careers</li>
-            <div class="dropdown-content">
+            <li class="dropbtn" style="text-decoration: none !important">
+              <a
+                href="/careers"
+                style="text-decoration: none !important"
+                >Careers</a
+              >
+            </li>
+            <!-- <div class="dropdown-content">
               <a href="#" class="last-list">Contact Us</a>
-            </div>
+            </div> -->
           </div>
-          <b-button pill style="background-color: #e04b26">Contact Us</b-button>
+          <b-button pill style="background-color: #e04b26"><a
+                href="/contactUs"
+                style="text-decoration: none !important"
+                >Contact Us</a
+              ></b-button>
         </b-navbar-nav>
-        <!-- <div class="menu"> -->
-        <!-- <div class="dropdown">
-              <li class="dropbtn">About us</li>
-              <div class="dropdown-content">
-                <a href="#"> Mission, Vision & Value</a>
-                <a href="#">Leadership</a>
-                <a href="#" class="last-list">Partners & Clients</a>
-              </div>
-            </div> -->
-        <!-- <div class="dropdown">
-              <li class="dropbtn">What We Do</li>
-              <div class="dropdown-content">
-                <a href="#"> Digital Transformation</a>
-                <a href="#"> Security Optimization</a>
-                <a href="#">Cloud Services Management</a>
-                <a href="#">Robotic Process Automation</a>
-                <a href="#">Technology Consulting</a>
-                <a href="#">Analytics &amp; Reporting</a>
-                <a href="#" class="last-list">All Products &amp; Services</a>
-              </div>
-            </div> -->
-        <!-- <div class="dropdown">
-              <li class="dropbtn">Resources</li>
-              <div class="dropdown-content">
-                <a href="#">Marketplace</a>
-                <a href="#">Blog</a>
-                <a href="#" class="last-list">Customer Success Stories</a>
-              </div> -->
-        <!-- </div> -->
-        <!-- <div class="dropdown">
-              <li class="dropbtn">Careers</li>
-              <div class="dropdown-content">
-                <a href="#" class="last-list">Contact Us</a>
-              </div>
-            </div> -->
-
-        <!-- <b-button pill style="background-color: #e04b26;">Contact Us</b-button> -->
-        <!-- </div>
-        </div> -->
       </b-collapse>
     </b-navbar>
   </div>
@@ -96,20 +76,35 @@ export default {}
 </script>
 
 <style scoped>
-a,
-.menu {
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+a {
   font-size: 12px;
   color: #fff;
   /* background-color: #2b2d42; */
+}
+.dropbtn > a {
+  font-size: 16px;
+  color: #fff;
 }
 .dropdown {
   position: relative;
   display: inline-block;
 }
+li > dropbtn {
+  text-decoration: none;
+}
+.ml-auto {
+  /* padding-top: 2rem; */
+  padding-right: 8rem;
+}
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -119,6 +114,7 @@ a,
   width: 15px;
   font-family: 'Montserrat', sans-serif;
   background-color: #2b2d42;
+  animation-delay: 2s;
 }
 .dropbtn {
   background-color: transparent;
@@ -127,6 +123,15 @@ a,
   /* font-size: 16px; */
   border: none;
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-right: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.dropbtn:hover {
+  border-bottom: 1px solid #e04b26;
+  text-decoration: none !important;
+  transition-delay: 2s;
 }
 .dropdown-content a {
   color: #fff;
@@ -134,16 +139,21 @@ a,
   text-decoration: none;
   display: block;
   border-bottom: 1px solid rgb(107, 102, 102);
+  font-size: 12px;
 }
 .last-list {
   border-bottom: 0;
 }
-.dropdown-content a:hover {
+.dropdown-content > a:hover {
   background-color: #e04b26;
+}
+.dropdown-content:hover {
+  transition-delay: 2s;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  text-decoration: none !important;
 }
 
 /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
@@ -178,13 +188,13 @@ li {
   /* position: fixed; */
   /* background-color: transparent; */
 }
-.menu {
+/* .menu {
   font-weight: 400;
   font-size: 15px;
   display: flex;
   list-style: none;
   justify-content: space-around;
-}
+} */
 .logo {
   color: #fff;
   font-size: 20px;
@@ -192,6 +202,7 @@ li {
   position: relative;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+  padding-left: 0rem;
 }
 button {
   font-family: 'Montserrat', sans-serif;

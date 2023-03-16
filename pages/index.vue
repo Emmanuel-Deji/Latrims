@@ -24,7 +24,7 @@
     <div class="container">
       <div class="section2">
         <b-img
-          src="~/assets/img/descasio_full_banner.png"
+          src="~/assets/latrims/first_banner.png"
           fluid-grow
           alt="Fluid-grow image"
           class="hero img-fluid pt-3"
@@ -37,13 +37,14 @@
           Here’s how we help your business <br />
           transform through technology
         </p>
+        <hr />
       </div>
       <b-row class="section3">
         <b-col class="table-header">
           <div>
             <div class="section3_img">
               <b-img
-                src="~/assets/img/ideas_table_banner.png"
+                src="~/assets/latrims/latrims_table_banner.png"
                 fluid-grow
                 alt="Fluid image"
                 class="idea-table img pt-3"
@@ -119,6 +120,8 @@
         <section>
           <div class="section4b">
             <p>Let’s make your business everything-proof</p>
+            <!-- <b-icon icon="gear-fill" aria-hidden="true"></b-icon> -->
+            <!-- <i class="fa fa-question"></i> -->
           </div>
         </section>
         <div style="margin-bottom: 2rem">
@@ -151,7 +154,7 @@
             </div>
             <div class="services-text">
               <p>
-                Descasio’s solution has unique capabilities to solve client’s
+                Latrim’s solution has unique capabilities to solve client’s
                 digital problems, create long-term change
               </p>
             </div>
@@ -173,7 +176,7 @@
             </div>
             <div class="services-text">
               <p>
-                Descasio’s solutions support the identification and elimination
+                Latrim’s solutions support the identification and elimination
                 of all security risks that are <br />
                 specific to the custom security needs of clients across all
                 industries and business sizes
@@ -197,7 +200,7 @@
             </div>
             <div class="services-text">
               <p>
-                Descasio’s cloud services is positioned to deliver value to any
+                Latrim’s cloud services is positioned to deliver value to any
                 business with tailored offerings
               </p>
             </div>
@@ -221,7 +224,7 @@
             </div>
             <div class="services-text">
               <p>
-                Descasio’s consulting expertise emphasizes continuous
+                Latrim’s consulting expertise emphasizes continuous
                 effectiveness of the company’s growth strategy.
               </p>
             </div>
@@ -243,7 +246,7 @@
             </div>
             <div class="services-text">
               <p>
-                Descasio’s platform helps MSMEs build complex custom solutions
+                Latrim’s platform helps MSMEs build complex custom solutions
                 faster, with higher quality.
               </p>
             </div>
@@ -265,7 +268,7 @@
             </div>
             <div class="services-text">
               <p>
-                escasio’s consulting expertise emphasizes continuous
+                Latrim’s consulting expertise emphasizes continuous
                 effectiveness of the company’s growth strategy.
               </p>
             </div>
@@ -280,6 +283,50 @@
       <div class="section6">
         <div class="badges">
           <p>Our Partners & Clients</p>
+        </div>
+        <div class="partners">
+          <img
+            src="~/assets/partners/RE1Mu3b.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1rem"
+          />
+          <img
+            src="~/assets/partners/Sophos.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1rem;"
+          />
+          <img
+            src="~/assets/partners/Google.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1rem"
+          />
+          <img
+            src="~/assets/partners/Checkpoint.jpg"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1rem"
+          />
+          <img
+            src="~/assets/partners/Zebra.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1.5rem"
+          />
+          <img
+            src="~/assets/partners/AWS.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1.5rem"
+          />
         </div>
       </div>
 
@@ -370,21 +417,19 @@
             <p>For your daily dose of information subscribe now.</p>
           </div>
           <div>
-            <div>
-              <form class="sub-form">
-                <div class="form-group">
-                  <input
-                    name="email address"
-                    class="email-input"
-                    type="text"
-                    id="avia_0_1"
-                    required
-                    placeholder="Email Address*"
-                  />
-                  <button class="btn-danger btn-smt">Submit</button>
-                </div>
-              </form>
-            </div>
+            <form class="sub-form">
+              <div class="form-group">
+                <input
+                  name="email address"
+                  class="email-input"
+                  type="text"
+                  id="avia_0_1"
+                  required
+                  placeholder="Email Address*"
+                />
+                <button class="btn-danger btn-smt">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
         <div class="section7b">
@@ -441,8 +486,22 @@ export default {
 ::after {
   box-sizing: border-box;
 }
+hr {
+  border: 1px solid #e04b26;
+  width: 250px;
+  position: relative;
+  top: 162%;
+  right: 40%;
+  left: 3%;
+}
+.partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  font-size: 20px;
+}
 .pshowcase {
-  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-web-banner.png');
+  background-image: url('~/assets/latrims/main_background.png');
   /* background-repeat: no-repeat; */
   background-position: cover;
   background-size: 100% 100%;
@@ -454,8 +513,9 @@ export default {
   text-align: center;
   /* font-size: 16px; */
   font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2em;
+  margin-top: 5rem;
 }
 .showcase {
   padding-top: 50px;
@@ -465,18 +525,39 @@ export default {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 767px) {
+@media screen and (min-width: 767px) {
+  .pshowcase {
+  background-image: url('~/assets/latrims/main_background.png');
+  /* background-repeat: no-repeat; */
+  background-position: cover;
+  background-size: 100% 100%;
+  /* padding-top: 116px; */
+  height: 70vh;
+  color: #ffffff;
+}
+  .partners {
+    display: flex;
+  }
+  hr {
+    border: 1px solid #e04b26;
+    width: 250px;
+    position: relative;
+    top: 162%;
+    right: 20% !important;
+    left: 15%;
+  }
   .showcase {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .pshowcase__txt {
     width: 30%;
   }
   .pshowcase__img {
     width: 70%;
+    /* padding-top: 3rem; */
   }
   .pshowcase__txt > h3 {
     text-align: left;
@@ -544,7 +625,7 @@ export default {
     /* text-align: center !important; */
     align-content: center !important;
     align-items: center !important;
-    gap: 3rem;
+    gap: 5rem;
   }
   .section3_header {
     font-size: 20px;
@@ -552,11 +633,8 @@ export default {
     font-weight: bold;
     color: #2b2d42;
     line-height: 131%;
-    /* border-bottom: 1px solid #e04b26; */
-    /* text-align: right !important; */
-    /* align-items: right !important; */
-    margin-left: 50px;
-    /* width:s 50%; */
+    text-align: center;
+    margin-left: 10px;
   }
   /* .section{
     text-align: center !important;
@@ -567,15 +645,15 @@ export default {
   }
   .sub-heading {
     text-align: right !important;
-    /* align-items: right !important; */
-    /* align-self: right; */
-    /* border-bottom: 1px solid #e04b26; */
+    padding-right: 180px;
     width: 100%;
     padding-left: 0rem;
+    align-items: center;
+    white-space: normal;
   }
   .idea-table {
     margin-top: -150px;
-    height: 90vh;
+    /* height: 90vh; */
   }
 }
 
@@ -609,12 +687,15 @@ p {
   gap: 1rem;
 }
 .section3_header {
-  font-size: 28px;
+  margin-top: 3rem;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #2b2d42;
   line-height: 131%;
-  border-bottom: 1px solid #e04b26;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  /* border-bottom: 1px solid #e04b26; */
 }
 .here-how {
   font-family: 'Montserrat', sans-serif;

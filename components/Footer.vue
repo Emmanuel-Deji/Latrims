@@ -33,7 +33,7 @@
           </div>
           <div class="contact-list">
             <p class="contact">Quick Links</p>
-            <div class="list">
+            <div class="contacts">
               <p class="underline">About Us</p>
               <p class="underline">Products and Services</p>
               <p class="underline">Contact Us</p>
@@ -47,13 +47,13 @@
         <p>Copyright © 2022 All rights reserved Latrims</p>
       </div>
       <div class="icon">
-        <span style="font-size: 25px; color: #ebebeb">
-          <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
-          <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
-          <i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;
-          <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;
-          <i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;
-          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <span class="smicon" style="font-size: 25px; color: #ebebeb;">
+          <i style="margin-right: 1rem;" class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
+          <i style="margin-right: 1rem;" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
+          <i style="margin-right: 1rem;" class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;
+          <i style="margin-right: 1rem;" class="fa fa-twitter" aria-hidden="true"></i>&nbsp;
+          <i style="margin-right: 1rem;" class="fa fa-youtube" aria-hidden="true"></i>&nbsp;
+          <i style="margin-right: 1rem;" class="fa fa-whatsapp" aria-hidden="true"></i>
         </span>
       </div>
     </div>
@@ -70,12 +70,15 @@ export default {}
     box-sizing: border-box;
     height: 70vh;
   }
+  /* .smicon{ 
+    width: 100% !important;
+  } */
   .footer1 {
     width: 100%;
     height: none;
     border: 1px solid red;
-    background-size: 100% 100%;
-    background-position: cover;
+    background-size: 100% 100% !important;
+    /* background-position: cover; */
     justify-content: center;
     align-items: center;
     gap: 10rem;
@@ -94,6 +97,10 @@ export default {}
   }
   .icon {
     margin-top: 10px;
+    transition: transform 0.3s;
+  }
+  .icon :hover{
+    transform: translateY(-5px);
   }
   .logo-text,
   .footer-sub-text {
@@ -106,6 +113,7 @@ export default {}
   .logo-text {
     font-size: 3.5rem;
     padding-left: 1rem;
+    font-weight:  bold;
   }
   .footer-sub-text {
     padding-right: 200px;
@@ -141,22 +149,28 @@ export default {}
 
 /* Moblie screen */
 
+.footer {
+    box-sizing: border-box;
+    height: 0vh !important;
+  }
 .footer1 {
-  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png');
+  /* background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png'), linear-gradient(to bottom, white 10%, #3e4063); */
+  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png'),  linear-gradient(to bottom, white, #3e4063, #3e4063);
   background-repeat: no-repeat;
   /* background-position: cover; */
-  background-size: 100% 100%;
+  background-size: 100% 50%;
   background-color: #3e4063;
   height: 60vh;
   /* gap: 10rem; */
   margin-top: 7rem;
   outline: none;
-  border: none;
-  border-color: #ebebeb;
+  /* border: 2px solid red; */
+  /* border-color: #ebebeb; */
   color: #ffffff;
   /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr; */
+
 }
 
 p {
@@ -195,7 +209,7 @@ p.underline {
   padding-bottom: 1rem;
 }
 .contacts {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .contact {
   font-family: 'Montserrat', sans-serif;
@@ -217,5 +231,6 @@ p.underline {
 .icon {
   text-align: right;
   margin-right: 13px;
+  transition: transform 0.3s;
 }
 </style>
