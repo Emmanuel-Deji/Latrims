@@ -80,7 +80,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="job">
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>HR/Admin Associate</h3>
           <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
@@ -94,8 +94,8 @@
         <div class="dita">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
-      <div class="job">
+      </div> -->
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>Solutions Architect</h3>
           <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
@@ -112,8 +112,8 @@
         <div class="dita">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
-      <div class="job">
+      </div> -->
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>Presales Engineer</h3>
           <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
@@ -131,8 +131,8 @@
         <div class="dita">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
-      <div class="job">
+      </div> -->
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>Sales Manager (SMB)</h3>
           <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
@@ -151,11 +151,11 @@
         <div class="dita">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
-      <div class="job">
+      </div> -->
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>Sales Specialist</h3>
-          <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
+          <p>Permanent – Full-time, 2023 | Lagos, Nigeria</p>
         </div>
         <div>
           The Sales Specialist will improve sales and overall business growth by
@@ -172,8 +172,8 @@
         <div class="dita">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
-      <div class="job">
+      </div> -->
+      <!-- <div class="job">
         <div style="white-space: nowrap">
           <h3>Head of Engineering</h3>
           <p>Permanent – Full-time, 2022 | Lagos, Nigeria</p>
@@ -187,7 +187,7 @@
         <div class="ditan">
           <div class="btn-smt" style="white-space: nowrap">More Details</div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="section5">
         <div class="cards cards1">
           <div class="cardA">

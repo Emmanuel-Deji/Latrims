@@ -22,21 +22,35 @@
             <p class="contact">Have a Questions?</p>
             <div class="contact-list">
               <p class="underline">
-                10 Fubara dublin green st. igbo efon, Lekki, Lagos, Nigeria
+                <a
+                  href="https://www.google.com/maps?q=15+Fubara+Dublin+Green+St.Igbo+Efon,+Lekki,+Lagos,+Nigeria"
+                >
+                  15 Fubara Dublin Green St. Igbo Efon, Lekki, Lagos, Nigeria</a
+                >
               </p>
-              <p class="underline">+234815980544</p>
               <p class="underline">
-                <i class="fa fa-envelope" aria-hidden="true">&nbsp;</i
-                >saorim@latrims.com.ng
+                <a href="tel:+2347059031942">+2347059031942</a>
+              </p>
+              <p class="underline">
+                <i class="fa fa-envelope" aria-hidden="true">&nbsp;</i>
+                <a href="mailto:saorim@latrims.com.ng">saorim@latrims.com.ng</a>
               </p>
             </div>
           </div>
           <div class="contact-list">
             <p class="contact">Quick Links</p>
             <div class="contacts">
-              <p class="underline">About Us</p>
-              <p class="underline">Products and Services</p>
-              <p class="underline">Contact Us</p>
+              <p class="underline">
+                <nuxt-link to="/aboutUs">About Us</nuxt-link>
+              </p>
+              <p class="underline">
+                <nuxt-link to="/products&services"
+                  >Products and Services</nuxt-link
+                >
+              </p>
+              <p class="underline">
+                <nuxt-link to="/contactUs">Contact Us</nuxt-link>
+              </p>
             </div>
           </div>
         </div>
@@ -47,13 +61,42 @@
         <p>Copyright © 2022 All rights reserved Latrims</p>
       </div>
       <div class="icon">
-        <span class="smicon" style="font-size: 25px; color: #ebebeb;">
-          <i style="margin-right: 1rem;" class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
-          <i style="margin-right: 1rem;" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
-          <i style="margin-right: 1rem;" class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;
-          <i style="margin-right: 1rem;" class="fa fa-twitter" aria-hidden="true"></i>&nbsp;
-          <i style="margin-right: 1rem;" class="fa fa-youtube" aria-hidden="true"></i>&nbsp;
-          <i style="margin-right: 1rem;" class="fa fa-whatsapp" aria-hidden="true"></i>
+        <span class="smicon" style="font-size: 25px; color: #ebebeb">
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-facebook"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-instagram"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-linkedin"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-twitter"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-youtube"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+           <i
+            style="margin-right: 1rem"
+            class="fa fa-whatsapp"
+            aria-hidden="true"
+          ></i>
         </span>
       </div>
     </div>
@@ -99,7 +142,7 @@ export default {}
     margin-top: 10px;
     transition: transform 0.3s;
   }
-  .icon :hover{
+  .icon :hover {
     transform: translateY(-5px);
   }
   .logo-text,
@@ -113,7 +156,7 @@ export default {}
   .logo-text {
     font-size: 3.5rem;
     padding-left: 1rem;
-    font-weight:  bold;
+    font-weight: bold;
   }
   .footer-sub-text {
     padding-right: 200px;
@@ -150,12 +193,13 @@ export default {}
 /* Moblie screen */
 
 .footer {
-    box-sizing: border-box;
-    height: 0vh !important;
-  }
+  box-sizing: border-box;
+  height: 0vh !important;
+}
 .footer1 {
   /* background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png'), linear-gradient(to bottom, white 10%, #3e4063); */
-  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png'),  linear-gradient(to bottom, white, #3e4063, #3e4063);
+  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-footer-fade.png'),
+    linear-gradient(to bottom, white, #3e4063, #3e4063);
   background-repeat: no-repeat;
   /* background-position: cover; */
   background-size: 100% 50%;
@@ -170,7 +214,6 @@ export default {}
   /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr; */
-
 }
 
 p {
@@ -207,6 +250,9 @@ p.underline {
   border-bottom: 1px solid #e04b26;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
+}
+p.underline > a {
+  color: #ffffff;
 }
 .contacts {
   margin-top: 2rem;

@@ -29,39 +29,56 @@
     <div class="container">
       <b-row class="section3">
         <b-col class="table-header">
+          <div class="btw">
           <div class="section3b">
-            <div>
-              <h3>Connect With Us</h3>
+            <div class="subholder">
+              <h3 class="header">Connect With Us</h3>
             </div>
-            <div>
-              <h4>Address</h4>
-              <div>3/5 Boyle Street, Lagos Nigeria</div>
+            <div class="subholder">
+              <h4 class="subhead">Address</h4>
+              <div>15 Fubara Dublin Green St. Igbo Efon, Lekki, Lagos, Nigeria</div>
             </div>
-            <div>
-              <h3>Email</h3>
-              <div>hi@descasio.io</div>
+            <div class="subholder">
+              <h3 class="subhead">Email</h3>
+              <a href="mailto:saorim@latrims.com.ng">saorim@latrims.com.ng</a>
             </div>
-            <div>
-              <h3>Phone</h3>
-              <div>111-222-3333</div>
+            <div class="subholder">
+              <h3 class="subhead">Phone</h3>
+              <a href="tel:+2347059031942">+2347059031942</a>
             </div>
-            <div>Message us on WhatsApp</div>
-            <div></div>
-            <div class="section7b">
-              <div class="get-holder">
-                <div class="get-text">
-                  <p class="">If in doubt click here</p>
-                </div>
-                <div class="get-text-sub">
-                  <p class="">Lets help your business perform better</p>
-                </div>
-                <b-button class="get-button">
-                  <a href="#" class="" style="color: #fff">
-                    <span class="">Click here</span>
-                  </a>
-                </b-button>
-              </div>
+            <div style="display: flex;">
+              <i
+              style="margin-right: 1rem; font-size: 35px;  color: #BABADA;"
+              class="fa fa-whatsapp"
+              aria-hidden="true"
+              ></i>
+              <h3>Message us on WhatsApp</h3>
             </div>
+
+            <div style="font-size: 25px;  color: #BABADA;"> <i
+            style="margin-right: 1rem"
+            class="fa fa-facebook"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-instagram"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-linkedin"
+            aria-hidden="true"
+          ></i
+          >&nbsp;
+          <i
+            style="margin-right: 1rem"
+            class="fa fa-twitter"
+            aria-hidden="true"
+          ></i></div>
+            
           </div>
           <!-- <div class="homehere">You Sare here:Home/Digital Transformation</div> -->
           <div>
@@ -112,10 +129,32 @@
               <div>
                 <p>
                   <label for="message" class="form_title"> Message <span>*</span></label> <br>
-                  <input name="message" class="input" type="text" id="message" value />
+                  <textarea rows="4" cols="50" name="message" id="message" placeholder="Enter your message here..."></textarea>
                 </p>
               </div>
+              <div>
+                <button type="submit">Send Message</button>
+              </div>
+              <div>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div>
             </form>
+          </div>
+        </div>
+          <div>
+            <div class="section7b">
+              <div class="get-holder">
+                <div class="get-text">
+                  <p class="">If in doubt click here</p>
+                </div>
+                <div class="get-text-sub">
+                  <p class="">Lets help your business perform better</p>
+                </div>
+                <b-button class="get-button">
+                  <a href="#" class="" style="color: #fff">
+                    <span class="">Click here</span>
+                  </a>
+                </b-button>
+              </div>
+            </div>
           </div>
         </b-col>
       </b-row>
@@ -138,6 +177,21 @@
 .card-img {
   text-align: center;
 }
+.subhead {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 128%;
+    color: #BABADA;
+}
+.subholder {
+  margin-bottom: 1.5rem;
+}
+.subholder >a {
+  color: #e04b26;
+}
+
 .form_title {
     font-weight: bold;
     font-size: 0.92em;
@@ -151,7 +205,7 @@ form {
     border-radius: 20px;
 }
 .input{ 
-    background-color: #969696 !important;
+    background-color: #f18e7829 !important;
     width: 100%;
 }
 .where {
@@ -198,7 +252,7 @@ hr {
   display: flex;
 }
 .pshowcase {
-  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-contact-us.png');
+  background-image: url('~/assets/contactUs/contact-us.png');
   /* background-repeat: no-repeat; */
   background-position: cover;
   background-size: 100% 100%;
@@ -227,13 +281,16 @@ hr {
 }
 @media (min-width: 767px) {
   .pshowcase {
-    background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-contact-us.png');
+    background-image: url('~/assets/contactUs/contact-us.png');
     /* background-repeat: no-repeat; */
     background-position: cover;
     background-size: 100% 100%;
     /* padding-top: 116px; */
     height: 70vh;
     color: #ffffff;
+  }
+  .btw{
+    display:flex;
   }
   hr {
     border: 1px solid #e04b26;
@@ -323,7 +380,7 @@ hr {
     margin-left: 15px;
   }
   .table-header {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     /* text-align: center !important; */
@@ -391,8 +448,8 @@ p {
 .section3b {
   /* display: table-cell; */
   /* display: flex; */
-  /* gap: 1rem; */
-  width: 100%;
+  gap: 10rem;
+  /* width: 100%; */
 }
 .section3_header {
   margin-top: 3rem;

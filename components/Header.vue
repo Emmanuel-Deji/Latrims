@@ -3,8 +3,13 @@
     <b-navbar toggleable="lg" type="dark" class="container-fluid bar">
       <nuxt-link to="/" class="logo">
         <b-navbar-brand class="logo">
-          Latrims
-          <span style="color: #ffffff66"> Nigeria </span>
+          <!-- <span style="color: #ffffff66"><span style="color: #fff">Latrims</span>Nigeria</span> -->
+          <img
+                src="~/assets/latrims/latrim_logo4.jpg"
+                alt=""
+                srcset=""
+                class=""
+              />
         </b-navbar-brand>
       </nuxt-link>
       <!--  -->
@@ -43,7 +48,7 @@
           <div class="dropdown">
             <li class="dropbtn">Resources</li>
             <div class="dropdown-content">
-              <a href="/marketplace">Marketplace</a>
+              <!-- <a href="/marketplace">Marketplace</a> -->
               <a href="/blog">Blog</a>
               <a href="#" class="last-list">Customer Success Stories</a>
             </div>
@@ -148,7 +153,7 @@ li > dropbtn {
   background-color: #e04b26;
 }
 .dropdown-content:hover {
-  transition-delay: 2s;
+  transition-delay: 5s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -180,8 +185,8 @@ li {
   justify-content: space-around;
   background: #2b2d42;
   color: #fff;
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   text-align: center;
   align-items: center;
   padding-left: 3rem;
@@ -197,11 +202,11 @@ li {
 } */
 .logo {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   position: relative;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 0rem;
 }
 button {

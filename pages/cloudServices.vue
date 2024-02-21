@@ -85,7 +85,7 @@
                     <p class="here-top">Cloud Efficiency Improvement</p>
                   </div>
                   <div class="dita">
-                    <div class=" btn-smt">Request Demo</div>
+                    <div class=" btn-smt"><a style="color: #fff;" href="/contactUs">Request Demo</a></div>
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@
       <div class="container">
         <div class="section4">
             <div class="section4b">
-              <p>Get the best Descasio has to offer</p>
+              <p>Get the best Latrims has to offer</p>
             </div>
             <hr>
           <div style="margin-bottom: 2rem">
@@ -140,9 +140,6 @@
                 <p>
                   Set up and deploy the perfect cloud infrastructure environment through an in-depth understanding of business requirements, appropriate migration strategy training and customization. Grow your business with a flexible, scalable, resilient, and fast cloud environment.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -159,9 +156,6 @@
               <div class="services-text">
                 <p>
                   Lighten your operations team’s workload, free up resources and minimize human error. Achieve faster application development and deployment, scalable and available architecture, and DevOps-friendly workflows.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -180,9 +174,6 @@
                 <p>
                   Speed up your company’s innovation capabilities with a secure, scalable, resilient, and fast cloud environment. Use Azure to quickly build, deploy, and manage applications to meet your business needs, manage services and resources faster.                </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -199,9 +190,6 @@
               <div class="services-text">
                 <p>
                   Construct your company’s custom cloud-based infrastructure in the areas of Compute, Storage & Databases, Networking, Big Data, Machine Learning, Identity & Security, and Management & Developer tools.                </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -222,9 +210,6 @@
                 <p>
                   Easily set-up, maintain, manage, and administer your relational MySQL and PostgreSQL databases in the cloud, to address the data-intensive needs of application developers, data scientists and IT architects to deliver immediate and longer-term benefits.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -241,9 +226,6 @@
               <div class="services-text">
                 <p>
                   Deliver Azure services from your company’s data center to create a consistent and cost-effective hybrid cloud environment to build, deploy and operate modern applications. Maximize developer productivity with a single set of tools and open-source technologies, and meet your business needs with the right blend of cloud and on-premises deployments.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -262,9 +244,6 @@
                 <p>
                   Experience a successful cloud transformation with an operating system and networking configuration as close to your current on-premises configuration as is possible on a cloud platform. Minimize both the migration cost and decreasing the time required to complete the migration.                </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <!-- <div class="cardA">
               <div class="card-img">
@@ -282,9 +261,6 @@
                 <p>
                   Improve your teams’ task management by creating tasks and assigning them to team members to work on collaboratively across platforms, who can also give updates.
                 </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div> -->
           </div>
@@ -309,9 +285,6 @@
                 <p>
                   Achieve great results through intelligent business applications which possess customer relationship management (CRM) and enterprise resource planning (ERP) capabilities to help manage specific business functions – Finance, Sales, and Marketing.
                 </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
           <div class="section7b">
@@ -488,7 +461,7 @@
   }
   @media (min-width: 767px) {
     .pshowcase {
-  background-image: url('https://www.descasio.io/wp-content/uploads/2020/10/descasio-cloud-service-management.png');
+  background-image: url('~/assets/cloudServices/cloud-service-management.png');
   /* background-repeat: no-repeat; */
   background-position: cover;
   background-size: 100% 100%;

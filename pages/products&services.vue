@@ -46,7 +46,7 @@
     <div class="container">
       <div class="section5">
         <div class="cards cards1">
-          <div class="cardA">
+          <!-- <div class="cardA">
             <div class="card-img">
               <img
                 src="~/assets/analyticsReporting/coomunication-collaboration-icon.png"
@@ -66,7 +66,7 @@
                 mobile apps and many more.
               </p>
             </div>
-          </div>
+          </div> -->
           <div class="cardA">
             <div class="card-img">
               <img
@@ -98,7 +98,7 @@
               />
             </div>
             <div class="services-title">
-              <p>Answer Bot</p>
+              <p>Chat Bot</p>
             </div>
             <div class="services-text">
               <p>

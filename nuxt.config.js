@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'latrims',
+    title: 'Latrims',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,15 +12,17 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/Latrim_logo4.jpg' },
       { rel: 'preconnect', href:'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com'},
       { 
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&display=swap'    
        },
-
-       
+       {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&family=Quicksand:wght@300;400;500;600;700&display=swap'
+       }
   ],
   },
   script:[

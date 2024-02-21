@@ -79,7 +79,7 @@
                   <p class="here-top">Application Development</p>
                 </div>
                 <div class="dita">
-                  <div class=" btn-smt">Request Demo</div>
+                  <div class=" btn-smt"><a style="color: #fff;" href="/contactUs">Request Demo</a></div>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@
     <div class="container">
       <div class="section4">
           <div class="section4b">
-            <p>Get the best Descasio has to offer</p>
+            <p>Get the best Latrims has to offer</p>
           </div>
           <hr>
         <div style="margin-bottom: 2rem">
@@ -136,7 +136,6 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
             </div>
           </div>
           <div class="cardA">
@@ -157,7 +156,6 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
             </div>
           </div>
           <div class="cardA">
@@ -177,9 +175,6 @@
                 Use intelligent and collaborative solutions to improve productivity, security, and flexibility by conveniently gathering apps in one place — Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Meet and Hangouts.
               </p>
             </div>
-            <div class="read-more">
-              <p>Read More</p>
-            </div>
           </div>
           <div class="cardA">
             <div class="card-img">
@@ -197,9 +192,6 @@
               <p>
                 Access an end-to-end DevOps toolchain across the full development lifecycle, including developing, testing, and deploying software. It easily integrates with the market’s leading development tools and supports agile planning and reporting.
               </p>
-            </div>
-            <div class="read-more">
-              <p>Read More</p>
             </div>
           </div>
         </div>
@@ -222,7 +214,6 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
             </div>
           </div>
           <div class="cardA">
@@ -243,7 +234,6 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
             </div>
           </div>
           <div class="cardA">
@@ -263,9 +253,6 @@
                 Monitor and execute your projects successfully by tracking resource management, target achievement and keep everyone up to date on your portfolio and projects’ progress.
               </p>
             </div>
-            <div class="read-more">
-              <p>Read More</p>
-            </div>
           </div>
           <div class="cardA">
             <div class="card-img">
@@ -283,9 +270,6 @@
               <p>
                 Improve your teams’ task management by creating tasks and assigning them to team members to work on collaboratively across platforms, who can also give updates.
               </p>
-            </div>
-            <div class="read-more">
-              <p>Read More</p>
             </div>
           </div>
         </div>
@@ -312,7 +296,6 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
             </div>
           </div>
         <div class="section7b">

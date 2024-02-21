@@ -85,7 +85,7 @@
                   <p class="here-top">Business Process Management</p>
                 </div>
                 <div class="dita">
-                  <div class=" btn-smt">Request Demo</div>
+                  <div class=" btn-smt"><a style="color: #fff;" href="/contactUs">Request Demo</a></div>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@
     <div class="container">
       <div class="section4">
           <div class="section4b">
-            <p>Get the best Descasio has to offer</p>
+            <p>Get the best Latrims has to offer</p>
           </div>
           <hr>
         <div style="margin-bottom: 2rem">
@@ -124,7 +124,7 @@
     <div class="container">
       <div class="section5">
         <div class="cards cards1">
-          <div class="cardA">
+          <!-- <div class="cardA">
             <div class="card-img">
               <img
                 src="~/assets/roboticsProcess/coomunication-collaboration-icon.png"
@@ -140,10 +140,8 @@
               <p>
                 Empower your technical and business users with an application development platform that is simple and easy to navigate using a visual drag and drop interface to design processes, products, mobile apps and many more.              </p>
             </div>
-            <div>
-              <p class="read-more">Read More</p>
-            </div>
-          </div>
+        
+          </div> -->
           <div class="cardA">
             <div class="card-img">
               <img
@@ -160,9 +158,7 @@
               <p>
                 Boost your team’s productivity with the global workflow automation service. Integrate seamlessly with other Microsoft apps, so you can create custom, end-to-end solutions, in a familiar environment, for your whole team to enjoy.              </p>
             </div>
-            <div>
-              <p class="read-more">Read More</p>
-            </div>
+        
           </div>
           <div class="cardA">
             <div class="card-img">
@@ -179,9 +175,6 @@
             <div class="services-text">
               <p>
                 Adopt an intelligent chatbot that gives instant and precise answers to your customers’ questions, helping with instant resolutions and happier customers. Reduce personnel costs and response times by simulating human conversation, and providing a natural flow of conversation that the customer is comfortable and familiar with.</p>
-            </div>
-            <div class="read-more">
-              <p>Read More</p>
             </div>
           </div>
           <!-- <div class="cardA">
@@ -200,9 +193,6 @@
               <p>
                 Access an end-to-end DevOps toolchain across the full development lifecycle, including developing, testing, and deploying software. It easily integrates with the market’s leading development tools and supports agile planning and reporting.
               </p>
-            </div>
-            <div class="read-more">
-              <p>Read More</p>
             </div>
           </div> -->
         </div>
@@ -231,9 +221,7 @@
                 Achieve great results through intelligent business applications which possess customer relationship management (CRM) and enterprise resource planning (ERP) capabilities to help manage specific business functions – Finance, Sales, and Marketing.
               </p>
             </div>
-            <div>
-              <p class="read-more">Read More</p>
-            </div>
+        
           </div>
         <div class="section7b">
           <div class="get-holder">

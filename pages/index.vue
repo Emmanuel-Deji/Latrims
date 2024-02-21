@@ -7,7 +7,13 @@
             We solemnly pledge to transform your services 'so help us tech'.
           </h3>
           <div class="hbtn">
-            <b-button size="lg" pill class="pill-1">Learn More</b-button>
+            <b-button size="lg" pill class="pill-1"
+              ><nuxt-link
+                style="color: white; text-decoration: none"
+                to="/products&services"
+                >Learn More</nuxt-link
+              ></b-button
+            >
           </div>
         </div>
         <div class="pshowcase__img">
@@ -131,8 +137,13 @@
               pill
               class="pill-1"
               style="margin-top: 3rem; font-size: 15px"
-              >Contact Us</b-button
             >
+              <nuxt-link
+                to="/contactUs"
+                style="color: #fff; text-decoration: none"
+                >Contact Us</nuxt-link
+              >
+            </b-button>
           </span>
         </div>
       </div>
@@ -159,7 +170,11 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
+              <p class="read-more">
+                <nuxt-link to="/digitalTransformation" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
           <div class="cardA">
@@ -176,14 +191,18 @@
             </div>
             <div class="services-text">
               <p>
-                Latrim’s solutions support the identification and elimination
-                of all security risks that are <br />
+                Latrim’s solutions support the identification and elimination of
+                all security risks that are <br />
                 specific to the custom security needs of clients across all
                 industries and business sizes
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
+              <p class="read-more">
+                <nuxt-link to="/securityOptimization" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
           <div class="cardA">
@@ -205,7 +224,11 @@
               </p>
             </div>
             <div class="read-more">
-              <p>Read More</p>
+              <p>
+                <nuxt-link to="/cloudServices" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -229,7 +252,11 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
+              <p class="read-more">
+                <nuxt-link to="/technologyConsulting" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
           <div class="cardA">
@@ -251,7 +278,11 @@
               </p>
             </div>
             <div>
-              <p class="read-more">Read More</p>
+              <p class="read-more">
+                <nuxt-link to="/roboticProcess" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
           <div class="cardA">
@@ -273,7 +304,11 @@
               </p>
             </div>
             <div class="read-more">
-              <p>Read More</p>
+              <p>
+                <nuxt-link to="/anayticsReporting" style="color: #e04b26"
+                  >Read More</nuxt-link
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -290,42 +325,48 @@
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1rem"
           />
           <img
             src="~/assets/partners/Sophos.png"
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1rem;"
           />
           <img
             src="~/assets/partners/Google.png"
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1rem"
           />
           <img
             src="~/assets/partners/Checkpoint.jpg"
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1rem"
           />
           <img
             src="~/assets/partners/Zebra.png"
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1.5rem"
           />
           <img
             src="~/assets/partners/AWS.png"
             alt=""
             srcset=""
             class="reduced-costs img pt-2"
-            style="margin-right: 1.5rem"
+          />
+          <img
+            src="~/assets/partners/Fortinet.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+          />
+          <img
+            src="~/assets/partners/barracuda.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
           />
         </div>
       </div>
@@ -343,7 +384,7 @@
               <nuxt-link to="#">DIGITAL TRANFORMATION</nuxt-link>
             </span>
             <div class="blogs-time">
-              <time>June 9, 2022</time>
+              <time>June 9, 2024</time>
             </div>
             <h3 class="blogs-title">
               10 Most Powerful Business Technologies You Must Use to Stay
@@ -367,7 +408,7 @@
               <nuxt-link to="#">DIGITAL TRANFORMATION</nuxt-link>
             </span>
             <div class="blogs-time">
-              <time>May 26, 2022</time>
+              <time>May 26, 2024</time>
             </div>
             <h3 class="blogs-title">
               Reimagining Your Business In A Time of Blockchain
@@ -392,7 +433,7 @@
               <nuxt-link to="#">LIFESTYLE</nuxt-link>
             </span>
             <div class="blogs-time">
-              <time>May 11, 2022</time>
+              <time>May 11, 2024</time>
             </div>
             <h3 class="blogs-title">10 Things You Need to Know About NFTs</h3>
             <div class="blogs-text">
@@ -442,7 +483,13 @@
             </div>
             <b-button class="get-button">
               <a href="#" class="" style="color: #fff">
-                <span class="">Contact Us</span>
+                <span class="">
+                  <nuxt-link
+                    to="/contactUs"
+                    style="color: #fff; text-decoration: none"
+                    >Contact Us</nuxt-link
+                  >
+                </span>
               </a>
             </b-button>
           </div>
@@ -462,7 +509,7 @@
       </div>
       <div class="betslip">
         <b-button class="get-button">
-          <a href="#" class="" style="color: #fff">
+          <a href="/contactUs" class="" style="color: #fff">
             <span class=""
               ><i style="font-size: 19px" class="fa fa-question"></i>&nbsp;
               Help</span
@@ -494,12 +541,60 @@ hr {
   right: 40%;
   left: 3%;
 }
+.slider {
+  /* width: 100%; */
+  overflow: hidden;
+  animation: slide 10s infinite;
+}
+
+.slider img {
+  display: block;
+  /* width: 100%; */
+}
+
+@keyframes slider {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-1080px, 0);
+  }
+  66% {
+    transform: translate(-2160px, 0);
+  }
+  100% {
+    transform: translate(-3240px, 0);
+  }
+}
 .partners {
-  display: grid;
+  display: flex;
+  gap: 1rem;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  font-size: 20px;
+  font-size: 20px; */
+  width: 900px;
+  height: 80px;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+  animation-name: slider;
+  animation-duration: 30s;
+  animation-delay: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: backwards;
+  animation-play-state: running;
 }
+
+.partners img {
+  /* height: 100px; */
+  width: 100px;
+  object-fit: fit;
+  /* float: left; */
+}
+
 .pshowcase {
   background-image: url('~/assets/latrims/main_background.png');
   /* background-repeat: no-repeat; */
@@ -527,17 +622,17 @@ hr {
 }
 @media screen and (min-width: 767px) {
   .pshowcase {
-  background-image: url('~/assets/latrims/main_background.png');
-  /* background-repeat: no-repeat; */
-  background-position: cover;
-  background-size: 100% 100%;
-  /* padding-top: 116px; */
-  height: 70vh;
-  color: #ffffff;
-}
-  .partners {
-    display: flex;
+    background-image: url('~/assets/latrims/main_background.png');
+    /* background-repeat: no-repeat; */
+    background-position: cover;
+    background-size: 100% 100%;
+    /* padding-top: 116px; */
+    height: 70vh;
+    color: #ffffff;
   }
+  /* .partners {
+    display: flex;
+  } */
   hr {
     border: 1px solid #e04b26;
     width: 250px;
@@ -676,6 +771,7 @@ p {
   background-color: #e04b26;
   margin-top: 30px;
   padding: 15px 30px 13px;
+  border: none;
 }
 .section3 {
   display: flex;

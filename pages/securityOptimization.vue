@@ -83,7 +83,7 @@
                     <p class="here-top">DevOps Security</p>
                   </div>
                   <div class="dita">
-                    <div class=" btn-smt">Request Demo</div>
+                    <div class=" btn-smt"><a style="color: #fff;" href="/contactUs">Request Demo</a></div>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
       <div class="container">
         <div class="section4">
             <div class="section4b">
-              <p>Get the best Descasio has to offer</p>
+              <p>Get the best Latrims has to offer</p>
             </div>
             <hr>
           <div style="margin-bottom: 2rem">
@@ -138,9 +138,6 @@
                 <p>
                     Protect your company against internal and external threats, from simple to complicated and advanced with next generation firewall technologies and security applications, such as application profiling, intrusion prevention, web filtering, malware and advanced threat protection, antispam protection, and network access control.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -157,9 +154,6 @@
               <div class="services-text">
                 <p>
                     Deploy advanced threat preventions to minimize cyber-attacks and secure your company’s cloud, network and mobile device held information and data against malware, ransomware, and other types of attacks.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -179,9 +173,6 @@
                   Use intelligent and collaborative solutions to improve productivity, security, and flexibility by conveniently gathering apps in one place — Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Meet and Hangouts.
                 </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -198,9 +189,6 @@
               <div class="services-text">
                 <p>
                     Defend your company and customers’ data against known and unknown malware, spyware, intrusions, unwanted applications, spam, policy abuse and data leakage, and provide a comprehensive network access control.                </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -221,9 +209,6 @@
                 <p>
                     Stop the known and unknown email threats like phishing and malware, business email compromise (BEC) before they arrive in your user’s inbox. Hard-to-detect threats are identified, and all threats are detected faster.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -240,9 +225,6 @@
               <div class="services-text">
                 <p>
                     Incorporate security as a significant component of DevOps practices. Through continuous monitoring, assessment, and analysis, DevSecOps ensures that any loopholes and weaknesses are identified early in the development process and remediated immediately.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <!-- <div class="cardA">
@@ -262,9 +244,6 @@
                   Monitor and execute your projects successfully by tracking resource management, target achievement and keep everyone up to date on your portfolio and projects’ progress.
                 </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div> -->
             <!-- <div class="cardA">
               <div class="card-img">
@@ -282,9 +261,6 @@
                 <p>
                   Improve your teams’ task management by creating tasks and assigning them to team members to work on collaboratively across platforms, who can also give updates.
                 </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div> -->
           </div>
@@ -309,9 +285,6 @@
                 <p>
                   Achieve great results through intelligent business applications which possess customer relationship management (CRM) and enterprise resource planning (ERP) capabilities to help manage specific business functions – Finance, Sales, and Marketing.
                 </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
           <div class="section7b">

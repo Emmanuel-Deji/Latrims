@@ -197,13 +197,14 @@
         </div>
       </div>
     </div>
-    <b-container class="bv-example-row">
+    <div class=" container">
       <div class="section6">
         <div id="partners" class="badges">
           <p>Our Partners & Clients</p>
         </div>
-        <div class="partners">
-          <img
+        <div>
+       <div class="slider">
+        <img
             src="~/assets/partners/RE1Mu3b.png"
             alt=""
             srcset=""
@@ -245,6 +246,21 @@
             class="reduced-costs img pt-2"
             style="margin-right: 1.5rem"
           />
+          <img
+            src="~/assets/partners/barracuda.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1.5rem"
+          />
+          <img
+            src="~/assets/partners/Fortinet.png"
+            alt=""
+            srcset=""
+            class="reduced-costs img pt-2"
+            style="margin-right: 1.5rem"
+          />
+       </div>
         </div>
       </div>
       <div class="section6b">
@@ -330,7 +346,7 @@
           <p class="here-how-sub">We remain in partnership with you every step of the way from ideation, assessment to implementation.</p>
         </div>
       </div>
-    </b-container>
+    </div>
     <b-container class="container">
       <div class="betslip">
         <b-button class="get-button">
@@ -380,6 +396,35 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   font-size: 20px;
+}
+.slider {
+  /* width: 100%; */
+  overflow: hidden;
+  animation: slide 10s infinite;
+  font-size: 20px;
+}
+
+/* .slider img {
+  display: block;
+  width: 100%;
+} */
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
 }
 .where{
   text-align: right;
@@ -448,6 +493,34 @@ hr {
 .partners {
     display: flex;
   }
+  .slider {
+  display:flex;
+  /* width: 100%; */
+  overflow: hidden;
+  /* animation: slide 15s infinite; */
+}
+.slider img {
+  display: block;
+  /* width: 100%; */
+}
+
+/* @keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+} */
   hr {
     border: 1px solid #e04b26;
     width: 250px;

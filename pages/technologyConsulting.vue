@@ -93,7 +93,7 @@
                     <p class="here-top">Disaster Recovery & Business Continuity</p>
                   </div>
                   <div class="dita">
-                    <div class=" btn-smt">Request Demo</div>
+                    <div class=" btn-smt"><a style="color: #fff;" href="/contactUs">Request Demo</a></div>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@
       <div class="container">
         <div class="section4">
             <div class="section4b">
-              <p>Get the best Descasio has to offer</p>
+              <p>Get the best Latrims has to offer</p>
             </div>
             <hr>
           <div style="margin-bottom: 2rem">
@@ -148,9 +148,6 @@
                 <p>
                   Understand the current state of your architecture and determine which changes can best help you achieve your business and IT goals. The assessment uses advanced tools to provide you with findings and customized recommendations for the next steps in your data center evolution, as well as a long-term plan for your data center architecture.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -167,9 +164,6 @@
               <div class="services-text">
                 <p>
                   Radically simplify and accelerate service delivery performance management to boost user experience and ROI across virtual, cloud and physical IT environments. Use advanced tools and expertise to accurately diagnose any issues and monitor performance over time to ensure easy, effective and efficient issue resolution.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -188,9 +182,6 @@
                 <p>
                   Identify and understand what your security needs are, taking into account your budget and industry-specific regulations. Decide on the best solutions to manages those needs.                </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -207,9 +198,6 @@
               <div class="services-text">
                 <p>
                   Keep your site up and running without any outages. Experience a minimum downtime with our recovery experts who make the deployment look easy.                </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -230,9 +218,6 @@
                 <p>
                   Adopt a cost-effective, secure, one-click backup solution that’s scalable based on your company’s growing backup storage needs and specific backup policies and requirements.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -249,9 +234,6 @@
               <div class="services-text">
                 <p>
                   Gain perspective on the big picture while dealing with your everyday operational activities and challenges within your company. Rely on experts’ practical experience and know-how to create a comprehensive plan for your current and future IT requirements and projects.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -270,9 +252,6 @@
                 <p>
                   Receive high quality administration outsourcing solutions through well-trained and professional technical teams in the area of server upgrade, license renewal/ upgrade/ cancellation, disaster recovery, business continuity, cloud migration, hosting, outsourcing, security controls, physical IT infrastructure management etc.</p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -289,9 +268,6 @@
               <div class="services-text">
                 <p>
                   Achieve great results through intelligent business applications which possess customer relationship management (CRM) and enterprise resource planning (ERP) capabilities to help manage specific business functions – Finance, Sales, and Marketing.                </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -312,9 +288,6 @@
                 <p>
                   Identify known and unknown issues and find the primary cause of the problem, to prevent it from reoccuring.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -331,9 +304,6 @@
               <div class="services-text">
                 <p>
                   Invest in outsourced resources to provide required IT services around the clock, to reduce costs, minimize downtime, increase operational efficiency or allow your company focus on its key areas.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -352,9 +322,6 @@
                 <p>
                   Identify the potential scope of changes needed to smoothly and quickly transition your current IT application portfolio, infrastructure and technology landscape into the cloud based on your specific business requirements.                </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -371,9 +338,6 @@
               <div class="services-text">
                 <p>
                   Develop a cloud business case with a metrics-driven ROI roadmap to recommend the most efficient and optimal to-be state. It will specify your cloud approach (public, private, and hybrid), cloud type (IaaS, PaaS, and SaaS), reference architecture, security policy and cloud management platform.</p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -394,9 +358,6 @@
                 <p>
                   Optimize your cloud solutions by receiving training, improving adoption rates amongst uses, monitoring performance and resolving any issues.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -413,9 +374,6 @@
               <div class="services-text">
                 <p>
                   Address talent development needs by equipping staff and leaders with digital skills necessary to compete in an interconnected world and fuel the digital transformation of their companies.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -434,9 +392,6 @@
                 <p>
                   Help your employees embrace digital change through the facilitation of engagement to encourage buy-in.</p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -453,9 +408,6 @@
               <div class="services-text">
                 <p>
                   Optimize your technology solutions by ensuring there is an effective onboarding process and product acceptance. This will improve technology adoption which results in higher retention and lower churn, to unlock new growth opportunities.                </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -479,9 +431,6 @@
               <div class="services-text">
                 <p>
                   Identify the opportunities available in your environment and industry that can future-proof and transform your business through technology. Take advantage of emerging and disruptive technologies to transform how you do business and interact with customers.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
           <!-- <div class="section7b">

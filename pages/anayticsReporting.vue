@@ -83,7 +83,7 @@
                     <p class="here-top">Data Management & Governance</p>
                   </div>
                   <div class="dita">
-                    <div class=" btn-smt">Request Demo</div>
+                    <div class=" btn-smt"><a style="color: #fff;" href="contactUs">Request Demo</a></div>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
       <div class="container">
         <div class="section4">
             <div class="section4b">
-              <p>Get the best Descasio has to offer</p>
+              <p>Get the best Latrim has to offer</p>
             </div>
             <hr>
           <div style="margin-bottom: 2rem">
@@ -122,7 +122,7 @@
       <div class="container">
         <div class="section5">
           <div class="cards cards1">
-            <div class="cardA">
+            <!-- <div class="cardA">
               <div class="card-img">
                 <img
                   src="~/assets/analyticsReporting/coomunication-collaboration-icon.png"
@@ -138,10 +138,7 @@
                 <p>
                   Empower your technical and business users with an application development platform that is simple and easy to navigate using a visual drag and drop interface to design processes, products, mobile apps and many more.                </p>
               </div>
-              <div>
-                <p class="read-more">Read More</p>
-              </div>
-            </div>
+            </div> -->
             <div class="cardA">
               <div class="card-img">
                 <img
@@ -157,9 +154,6 @@
               <div class="services-text">
                 <p>
                   Operationalize your data by engaging Descasio’s team of Data Engineers and Data Scientists, to organize, structure, store and analyze your data to create powerful and insightful reports.                </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
             <div class="cardA">
@@ -178,9 +172,6 @@
                 <p>
                   Gain key insights from your company data, with all your key metrics in one place and updated in real time across multiple devices, with access control.                </p>
               </div>
-              <div class="read-more">
-                <p>Read More</p>
-              </div>
             </div>
             <div class="cardA">
               <div class="card-img">
@@ -198,9 +189,6 @@
                 <p>
                   Access an end-to-end DevOps toolchain across the full development lifecycle, including developing, testing, and deploying software. It easily integrates with the market’s leading development tools and supports agile planning and reporting.
                 </p>
-              </div>
-              <div class="read-more">
-                <p>Read More</p>
               </div>
             </div>
           </div>
@@ -225,9 +213,6 @@
                 <p>
                   Create customized data models and obtain predictions for your apps without complex technology or infrastructure. Also collect data and send it to the cloud for cost-effective analysis of big data to inform decision making.
                 </p>
-              </div>
-              <div>
-                <p class="read-more">Read More</p>
               </div>
             </div>
         </div>
